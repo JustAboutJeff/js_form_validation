@@ -13,7 +13,7 @@ $(document).ready( function() {
     var $errorList = $('ul#errors');
     $errorList.contents().remove();
 
-    var $formInput = $('form').filter(':input');
+    // var $formInput = $('form').filter(':input');
     var $emailInput = $('input[name="email"]').val();
     var $passInput = $('input[name="password"]').val();
     
